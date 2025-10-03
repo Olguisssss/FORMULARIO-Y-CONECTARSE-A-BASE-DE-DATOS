@@ -239,3 +239,57 @@ CARPETA: STATIC, ARCHIVO style.css
     margin-left: 30%;
     margin-right: 30%;
 }
+
+¿QUÉ SON LAS SESIONES EN SOFTWARE?
+Una sesión es un mecanismo que permite almacenar información temporal sobre un usuario mientras interactúa con una aplicación.
+Se inicia cuando un usuario se autentica o empieza a usasr el sistema
+Permite mantener deatos durante varias peticiones HTTP
+Finaliza cuando el usuario cierra sesión o expira el tiempo configurado
+
+https://ejecutortecnico.github.io/pri/mision2/json.html
+
+¿qué es JSON?
+JSON significa javascript object notation. es un formato ligero para el intercambio de datos
+-facil de leer y escribir por humanos
+-facil de procesar por maquinas
+-se utiliza ampliamente en APIs y aplicaciones web
+
+ESTRUCTURA DE JSON
+json se basa en pares clave : valor y puede econtener:
+objetos: colecciones de pares clave-valor con llaves {
+arreglos: listas d evalores con corchetes [
+valores: cadenas, numeros, booleanos, nulos u otros objetos/arrays
+
+EJEMPLO DE UN OBJETO JSON
+{
+"id": 1,
+"nombre": "Juan Pérez",
+"email": "juan@example.com",                      ESTE JSON REPRESENTA UN USUARIO CON VARIOS ATRIBUTOS
+"activo": true
+}
+
+
+[
+  {
+    "id": 1,
+    "producto": "Laptop",
+    "precio": 1200.50
+  },
+  {
+    "id": 2,
+    "producto": "Mouse",
+    "precio": 25.99
+  }
+]
+
+
+DONDE SE USA JSON?
+comunicacion entre cliente - servidor (APIs REST)
+almacenamiento de configuraciones
+intercambio de datos entre sistemas
+
+EJEMPLO DE API QUE DEVUELVE JSON
+en terminal se pone pip install flask flask-login
+https://ejecutortecnico.github.io/pri/mision2/loginapi.html
+
+TODO EL CODIGO: https://github.com/ejecutortecnico/loginapi
